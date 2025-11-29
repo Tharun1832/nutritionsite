@@ -219,7 +219,6 @@ export default function NutritionistSite() {
             </ul>
 
             <div className="mt-6 flex gap-3">
-              <button onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })} className="px-4 py-2 rounded bg-white border btn-dynamic">Clinic Address</button>
               <button onClick={() => document.querySelector('#book')?.scrollIntoView({ behavior: 'smooth' })} className="px-4 py-2 rounded bg-emerald-600 text-white btn-dynamic">Book Now</button>
             </div>
           </div>
