@@ -96,7 +96,7 @@ export default function NutritionistSite() {
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold">MS</div>
             <div>
-              <div className="text-lg font-semibold">Monica S</div>
+              <div className="text-lg font-semibold">Dt.Monica Suresh</div>
               <div className="text-sm text-gray-600">M.Sc Food Science, Nutrition & Dietetics — pursuing a Ph.D. in Nutrition and Dietetics</div>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default function NutritionistSite() {
           <div className="mt-8 grid grid-cols-2 gap-4 text-sm">
             <div className="bg-white/80 p-4 rounded-lg shadow-sm">
               <div className="text-xs text-gray-500">Consultation</div>
-              <div className="font-semibold">In-person & Online</div>
+              <div className="font-semibold">Online</div>
             </div>
             <div className="bg-white/80 p-4 rounded-lg shadow-sm">
               <div className="text-xs text-gray-500">Slogan</div>
@@ -225,7 +225,7 @@ export default function NutritionistSite() {
           </div>
 
           <div className="flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="doctor" className="w-56 h-56 object-cover rounded-xl shadow" />
+            <img src="https://github.com/Tharun1832/nutritionsite/blob/main/image.png?raw=true" alt="doctor" className="w-56 h-56 object-cover rounded-xl shadow" />
           </div>
         </div>
       </section>
@@ -234,7 +234,7 @@ export default function NutritionistSite() {
       <section className="max-w-6xl mx-auto px-6 py-12">
         <h3 className="text-2xl font-bold">What patients say</h3>
         <div className="mt-6 grid sm:grid-cols-2 gap-6">
-          {[{ name: 'Sita R', text: 'Helped me lose 8 kg in 3 months with realistic meal plans!' }, { name: 'Ramesh K', text: 'Practical advice and great follow-up. My diabetes numbers improved.' }].map((t, i) => (
+          {[{ name: 'Sita R', text: 'Helped me lose 8 kg in 3 months with realistic meal plans!' }, { name: 'Ramesh K', text: 'Practical advice and great follow-up. My sugar control is getting better and moving towards normal level' }].map((t, i) => (
             <div key={i} className="bg-white p-6 rounded-xl shadow-sm">
               <div className="font-semibold">{t.name}</div>
               <div className="mt-2 text-gray-600">"{t.text}"</div>
@@ -306,10 +306,10 @@ export default function NutritionistSite() {
           </div>
 
           <div>
-            <div className="font-semibold">Opening hours</div>
-            <div className="mt-2 text-sm">Mon - Fri: 9:30 AM - 6:30 PM</div>
-            <div className="mt-1 text-sm">Sat: 10:00 AM - 2:00 PM</div>
-            <div className="mt-1 text-sm">Sun: Closed</div>
+            <div className="font-semibold">Online consultation hours</div>
+            <div className="mt-2 text-sm">Mon - Sat: 10.00 AM - 12.00 PM</div>
+            <div className="mt-1 text-sm">2.00 PM - 4.00 PM</div>
+            <div className="mt-1 text-sm">5.00 PM - 7.00 PM </div>
           </div>
         </div>
 
